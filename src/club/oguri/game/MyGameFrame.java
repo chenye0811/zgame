@@ -35,6 +35,7 @@ public class MyGameFrame extends Frame {
 		});
 		for (int i = 0; i < shellObjects.length; i++) {
 			shellObjects[i] = new ShellObject(200, 200, 5, 5, 20);
+			shellObjects[i] = new ShellObject(200, 200, 5, 5, 10);
 		}
 	}
 
